@@ -29,4 +29,4 @@
 ##### Consumer 대신 Hook 또는 static contextType 사용
 
 - useContext Hook 사용 : 함수형 컴포넌트에서 Context 편리하게 사용가능
-  -static contextType 정의 : 클래스 메서드에서도 Context에 넣어 둔 함수 호출 가능하지만 한 클래스에서 하나의 Context 밖에 사용 못함
+- static contextType 정의 : 클래스 메서드에서도 Context에 넣어 둔 함수 호출 가능하지만 한 클래스에서 하나의 Context 밖에 사용 못함
