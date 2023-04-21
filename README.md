@@ -1,6 +1,6 @@
 ## Context API
 
-- 리액트 프로젝트에서 전역적으로 사용할 데이터 있을 때 유용
+리액트 프로젝트에서 전역적으로 사용할 데이터 있을 때 유용
 
 #### 전역상태 관리
 
@@ -21,3 +21,12 @@
 
 - Context의 value 변경 가능
 - 파라미터로 기본값 넣어주는 것은 Provide 사용하지 않았을 때만 사용됨, Provide 사용했는데 value 명시 안 할 경우, 이 기본값 사용하지 않기 때문에 오류 발생
+
+##### 동적 Context 사용
+
+- value에 함수 전달 가능
+
+##### Consumer 대신 Hook 또는 static contextType 사용
+
+- useContext Hook 사용 : 함수형 컴포넌트에서 Context 편리하게 사용가능
+  -static contextType 정의 : 클래스 메서드에서도 Context에 넣어 둔 함수 호출 가능하지만 한 클래스에서 하나의 Context 밖에 사용 못함
